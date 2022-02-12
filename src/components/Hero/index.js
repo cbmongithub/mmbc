@@ -2,12 +2,12 @@ export default function Hero() {
   return (
     <section
       id='home'
-      className='h-screen sm:h-screen w-full flex flex-col items-center justify-center bg-no-repeat bg-center bg-fixed bg-cover'
+      className='h-screen sm:h-screen w-full flex flex-col items-center justify-center bg-no-repeat bg-center bg-fixed bg-cover z-0'
       style={{
         backgroundImage: "url('/assets/hero.jpg')",
       }}
     >
-      <div className='container-fluid flex justify-center items-center flex-col px-5 bg-gradient-to-b from-transparent via-white to-white w-full h-full'>
+      <div className='container-fluid z-1 flex justify-center items-center flex-col px-5 bg-gradient-to-b from-transparent via-white to-white w-full h-full'>
         <h1 className='text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10'>
           We are a full service
           <br />

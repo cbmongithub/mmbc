@@ -12,10 +12,10 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px #aaa;
+  box-shadow: inset 0 0 6px #ccc;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to bottom, #3b82f6, #4338ca);
+  background-color: rgb(67, 56, 202);
   border-radius: 5px;
 }
