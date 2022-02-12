@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id='home'
-      className='h-screen sm:h-screen w-full flex flex-col items-center justify-center bg-no-repeat bg-center bg-fixed bg-cover z-0'
+      className='h-screen sm:h-screen w-full flex flex-col items-center justify-center bg-no-repeat bg-center lg:bg-fixed sm:bg-scroll bg-cover z-0'
       style={{
         backgroundImage: "url('/assets/hero.jpg')",
       }}
